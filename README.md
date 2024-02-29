@@ -1,8 +1,47 @@
-# CRUD Nodejs and Mysql
-this is a basic application crud that uses nodejs in the backend, mysql as database.
+# CRUD Node.js MySQL
+Este repositorio contiene una aplicación CRUD (Crear, Leer, Actualizar, Eliminar) desarrollada en Node.js con MySQL como base de datos. Proporciona una interfaz para gestionar una lista de elementos utilizando las operaciones básicas de una base de datos.
 
-# Usefull Commands
-- to init mysql: `mysql -u root -p`
+## Instalación
 
-# links
-- [bootstrap 4 theme](https://bootswatch.com/4/lux/bootstrap.min.css)
+### Clona este repositorio en tu máquina local utilizando Git:
+
+``` git clone https://github.com/tu_usuario/crud-nodejs-mysql.git ```
+
+### Instala las dependencias necesarias utilizando npm:
+
+``` npm install ```
+
+### Para ejecutar la aplicación
+
+Asegúrate de tener una instancia de MySQL en funcionamiento y configura las credenciales de conexión en el archivo src/index.js.
+Luego,puedes iniciar el servidor con el siguiente comando:
+
+``` npm start ```
+
+La aplicación estará disponible en http://localhost:3000.
+
+## Características
+
+- Operaciones CRUD: Permite crear, leer, actualizar y eliminar elementos de la base de datos.
+- Interfaz de Usuario Amigable: Utiliza plantillas EJS para renderizar las vistas HTML y proporcionar una experiencia de usuario intuitiva.
+- Descarga de Datos en formato excel: Utiliza la biblioteca exceljs para generar y descargar datos en formato Excel.
+
+# Tecnologías Utilizadas
+- Node.js: Plataforma de desarrollo backend basada en JavaScript.
+- Express.js: Framework web de Node.js utilizado para crear la aplicación y definir rutas.
+- EJS: Motor de plantillas para generar las vistas HTML de manera dinámica.
+- MySQL y MySQL2: Bibliotecas de Node.js para interactuar con la base de datos MySQL.
+- ExcelJS: Biblioteca para la generación de archivos Excel en Node.js.
+
+## Estructura del Proyecto
+El proyecto está estructurado de la siguiente manera:
+
+- Directorio `src/`:
+  - Archivo principal `index.js/`: Define la configuración del servidor Express y las rutas de la aplicación.
+  - Carpeta `controllers/`: Contiene los controladores de Express que manejan la lógica de negocio de la aplicación.
+  - Carpeta `models/`: Contiene los modelos de datos y las funciones de acceso a la base de datos.
+  - Carpeta `views/`: Contiene las plantillas EJS utilizadas para renderizar las páginas HTML.
+- Directorio `public/`: Directorio que almacena archivos estáticos como CSS, JavaScript y recursos multimedia.
+- Directorio `config/`: Directorio que contiene archivos de configuración, como la configuración de la base de datos.
+
+© 2024 Adrian Mayora. Todos los derechos reservados.
