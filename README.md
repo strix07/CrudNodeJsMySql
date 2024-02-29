@@ -26,7 +26,7 @@ La aplicación estará disponible en http://localhost:3000.
 - Interfaz de Usuario Amigable: Utiliza plantillas EJS para renderizar las vistas HTML y proporcionar una experiencia de usuario intuitiva.
 - Descarga de Datos en formato excel: Utiliza la biblioteca exceljs para generar y descargar datos en formato Excel.
 
-# Tecnologías Utilizadas
+## Tecnologías Utilizadas
 - Node.js: Plataforma de desarrollo backend basada en JavaScript.
 - Express.js: Framework web de Node.js utilizado para crear la aplicación y definir rutas.
 - EJS: Motor de plantillas para generar las vistas HTML de manera dinámica.
