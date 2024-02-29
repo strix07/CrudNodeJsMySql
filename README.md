@@ -36,6 +36,7 @@ La aplicación estará disponible en http://localhost:3000.
 ## Estructura del Proyecto
 El proyecto está estructurado de la siguiente manera:
 
+```
 └── 📁crud-nodejs-mysql-master
     └── .gitignore
     └── 📁database
@@ -63,6 +64,9 @@ El proyecto está estructurado de la siguiente manera:
             └── 📁partials
                 └── _footer.ejs
                 └── _header.ejs
+```
+
+
 
 - Directorio `src/`: Directorio que contiene el código fuente de la aplicación.
   - Archivo principal `index.js/`: Define la configuración del servidor Express y las rutas de la aplicación.
