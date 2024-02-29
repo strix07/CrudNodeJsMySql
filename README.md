@@ -36,7 +36,7 @@ La aplicación estará disponible en http://localhost:3000.
 ## Estructura del Proyecto
 El proyecto está estructurado de la siguiente manera:
 
-- Directorio `src/`:
+- Directorio `src/`: Directorio que contiene el código fuente de la aplicación.
   - Archivo principal `index.js/`: Define la configuración del servidor Express y las rutas de la aplicación.
   - Carpeta `controllers/`: Contiene los controladores de Express que manejan la lógica de negocio de la aplicación.
   - Carpeta `models/`: Contiene los modelos de datos y las funciones de acceso a la base de datos.
