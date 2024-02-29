@@ -42,6 +42,7 @@ El proyecto está estructurado de la siguiente manera:
   - Carpeta `models/`: Contiene los modelos de datos y las funciones de acceso a la base de datos.
   - Carpeta `views/`: Contiene las plantillas EJS utilizadas para renderizar las páginas HTML.
 - Directorio `public/`: Directorio que almacena archivos estáticos como CSS, JavaScript y recursos multimedia.
+- Directorio `routes/`: Directorio que contiene los archivos de enrutamiento de Express para manejar las solicitudes HTTP.
 - Directorio `config/`: Directorio que contiene archivos de configuración, como la configuración de la base de datos.
 
 © 2024 Adrian Mayora. Todos los derechos reservados.
