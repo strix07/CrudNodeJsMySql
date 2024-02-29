@@ -36,6 +36,34 @@ La aplicación estará disponible en http://localhost:3000.
 ## Estructura del Proyecto
 El proyecto está estructurado de la siguiente manera:
 
+└── 📁crud-nodejs-mysql-master
+    └── .gitignore
+    └── 📁database
+        └── db.sql
+    └── package-lock.json
+    └── package.json
+    └── pnpm-lock.yaml
+    └── project_structure.json
+    └── README.md
+    └── 📁src
+        └── app.js
+        └── config.js
+        └── 📁controllers
+            └── customerController.js
+        └── db.js
+        └── index.js
+        └── 📁public
+            └── 📁styles
+                └── index.css
+        └── 📁routes
+            └── customer.routes.js
+        └── 📁views
+            └── customers.ejs
+            └── customers_edit.ejs
+            └── 📁partials
+                └── _footer.ejs
+                └── _header.ejs
+
 - Directorio `src/`: Directorio que contiene el código fuente de la aplicación.
   - Archivo principal `index.js/`: Define la configuración del servidor Express y las rutas de la aplicación.
   - Carpeta `controllers/`: Contiene los controladores de Express que manejan la lógica de negocio de la aplicación.
